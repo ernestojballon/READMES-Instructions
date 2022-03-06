@@ -47,7 +47,7 @@ module.exports = (config, options) => {
 
 ### Add folder structure for mock server
 
-Markup : ![picture alt](./standAlone.jpg.png "Title is optional")
+![picture alt](./standAlone.jpg.png "folder structure")
 
 ### Inside files
 
