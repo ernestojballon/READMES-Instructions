@@ -1,21 +1,32 @@
 # AngularJest
 
 ## Step 1: 
-`npm uninstall @types/jasmine jasmine-core karma karma-chrome-launcher`
+```npm uninstall @types/jasmine jasmine-core karma karma-chrome-launcher```
 ## Step 2: 
   - Remove test object from Angular.json
 ## Step 3: 
   - Delete karma.conf.js file and test.ts file
 ## Step 4: 
-  `npm i jest @types/jest jest-preset-angular`
+  ```js
+  npm i -D jest @types/jest jest-preset-angular
+  ```
 ## Step 5:
 Run on root folder:
-  ```bash
+  ```js
   npx jest --init
   ```
-  - Choose from options `coverage,JSDOM,V8`
-## Step 6: Create setup.jest.ts file.
-  - Add `import 'jest-preset-angular/setup-jest'`
+  - Choose from options 
+    - JS as config file
+    - coverage
+    - JSDOM
+    - V8`
+## Step 6: 
+- Create setup.jest.ts file.
+- Add 
+
+```js 
+import 'jest-preset-angular/setup-jest'
+```
 ## Step 7: Update tsconfig.spec.json file
   - Add "jest" to types and "src/setup.jest.ts"
   ```json
