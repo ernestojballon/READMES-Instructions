@@ -22,7 +22,7 @@ npx tsc --init
 ## Replace this scripts on your new package.json file
 ```json
 "scripts": {
-    "dev": "nodemon --exec ts-node-dev src/index.ts",
+    "dev": "nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
 ```
