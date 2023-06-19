@@ -4,7 +4,7 @@
 
 ```bash
 npm i -D husky
-npm set-script prepare "husky install"
+npm set-script prepare "husky install" OR symple create a script "prepare": "husky install" in package.json
 ```
 
 ## Prepare husky for hooks
